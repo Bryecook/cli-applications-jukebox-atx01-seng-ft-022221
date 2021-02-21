@@ -38,7 +38,7 @@ def play (songs)
   elsif user_input.to_i==number
     puts "Playing #{song}"
   else
-    puts "Invalid input, please try again"
+    return "Invalid input, please try again"
   end
 end 
 end
