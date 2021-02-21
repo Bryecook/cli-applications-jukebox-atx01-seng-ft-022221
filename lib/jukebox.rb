@@ -33,7 +33,7 @@ def play (songs)
   songs.each_with_index do |song, index|
   number=index+1
   #binding.pry
-  if user_input==song
+  if user_input == song
     puts "Playing #{song}"
   elsif user_input.to_i==number
     puts "Playing #{song}"
