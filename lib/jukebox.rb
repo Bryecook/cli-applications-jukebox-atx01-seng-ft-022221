@@ -35,7 +35,7 @@ def play (songs)
   #binding.pry
   if user_input==song
     puts "Playing #{song}"
-  elsif user_input.to_i==number
+  elsif user_input.to_i=number
     puts "Playing #{song}"
   end
 end 
