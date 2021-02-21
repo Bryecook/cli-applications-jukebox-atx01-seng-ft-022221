@@ -37,10 +37,9 @@ def play (songs)
     puts "Playing #{song}"
   elsif user_input.to_i==number
     puts "Playing #{song}"
-  else
-    return "Invalid input, please try again"
   end
 end 
+return "Invalid input, please try again"
 end
 
 def exit_jukebox
