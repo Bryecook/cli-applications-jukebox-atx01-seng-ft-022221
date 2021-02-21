@@ -35,10 +35,8 @@ def play (songs)
   #binding.pry
   if user_input == song
     puts "Playing #{song}"
-    break
   elsif user_input.to_i == number
     puts "Playing #{song}"
-    break
   end
 end 
 puts "Invalid input, please try again"
