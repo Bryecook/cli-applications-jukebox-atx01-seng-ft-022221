@@ -38,8 +38,8 @@ def play (songs)
   elsif user_input.to_i==number
     puts "Playing #{song}"
   end
-end 
 puts "Invalid input, please try again"
+end 
 end
 
 def exit_jukebox
