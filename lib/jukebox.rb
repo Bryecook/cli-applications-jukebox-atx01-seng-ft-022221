@@ -35,6 +35,7 @@ def play (songs)
   #binding.pry
   if user_input == song
     puts "Playing #{song}"
+    puts "Please enter a song name or number:"
   elsif user_input.to_i == number
     puts "Playing #{song}"
   end
